@@ -1,6 +1,6 @@
 
 import './App.css'
-import { Routes ,Route, HashRouter } from 'react-router-dom'
+import { BrowserRouter, Routes ,Route } from 'react-router-dom'
 import Home from './Home'
 import Verification from './pages/page2'
 import Certificate from './pages/page3'
@@ -9,7 +9,7 @@ function App() {
 
   return (
     
-  <HashRouter>
+  <BrowserRouter>
   <Routes>
     <Route path='/' element={<Home />}> 
     </Route>
@@ -19,7 +19,7 @@ function App() {
     </Route>
   </Routes>
   
-  </HashRouter>
+  </BrowserRouter>
     
   )
 }

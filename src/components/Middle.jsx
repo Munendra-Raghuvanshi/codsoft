@@ -57,7 +57,7 @@ const Middle = () => {
           {/* Useful Links */}
           <div className="flex flex-col">
             <h2 className="text-lg font-semibold mb-4">Useful Links</h2>
-            <a href="/privacy-policy" className="text-blue-500 hover:underline mb-2">Privacy Policy</a>
+           div className="text-blue-500" >privacy policy</div>
             {/* Add more links as needed */}
           </div>
 
